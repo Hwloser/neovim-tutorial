@@ -33,6 +33,7 @@ end
 packer.init {
   display = {
     open_fn = function()
+      -- open an float windows firstly
       return require("packer.util").float { border = "rounded" }
     end,
   },
